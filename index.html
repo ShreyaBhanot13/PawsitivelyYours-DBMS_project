@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinary Hospitals</title>
+    <style>
+        /* Style for the table header */
+        th {
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+
+        /* Style for the table cells */
+        td {
+            background-color: grey;
+            color: yellow;
+            padding: 10px;
+        }
+
+        /* Additional styles for the table */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            text-align: left;
+        }
+
+        tr:nth-child(even) {
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Veterinary Hospitals</h1>
+    <form id="locationForm">
+        <label for="locationInput">Enter Location:</label>
+        <input type="text" id="locationInput" name="location" required>
+        <button type="submit">Submit</button>
+    </form>
+    <table id="hospitalTable">
+        <thead>
+            <tr>
+                <th>Vet Name</th>
+                <th>Hospital ID</th>
+                <th>State</th>
+                <th>City</th>
+                <th>Locality</th>
+                <th>Pin</th>
+                <th>Latitude</th>
+                <th>Longitude</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

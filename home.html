@@ -1,0 +1,996 @@
+    <!DOCTYPE html>
+  <html lang="en">
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+ 
+  <link rel="stylesheet" href="styles.css">
+
+
+  <title>PawsitivelyYours-Uniting Hearts, Fighting Diseases, Saving Dogs</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@300;400;500;700&family=Oswald:wght@600&display=swap"
+    rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@300;400;500;700&family=Oswald:wght@600&display=swap"
+  rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="#" class="logo">PawsitivelyYours</a>
+      </h1>
+
+      
+
+      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">PawsitivelyYours</a>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>
+              <span>Home</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>
+              <span>About</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#service" class="navbar-link" data-nav-link>
+              <span>Service</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#donate" class="navbar-link" data-nav-link>
+              <span>Donate</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#event" class="navbar-link" data-nav-link>
+              <span>Event</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>
+              <span>Contact</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-action">
+
+        <button class="search-btn" aria-label="Search">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+        <button onclick="redirectToLogin()" style="background-color: #e9934d; color: #000; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;" onmouseover="this.style.backgroundColor='#45a049'" onmouseout="this.style.backgroundColor='#4CAF50'">Login</button>
+      </div>
+    
+      <script>
+        function redirectToLogin() {
+          window.location.href = 'login1.html';
+        }
+      </script>
+
+      </div>
+
+    </div>
+  </header>
+
+
+
+  <main>
+    <article>
+
+      <!--
+        - #HERO
+      -->
+
+      <section class="hero" id="home" style="background-image: url('bg2.jpeg');">
+        <div class="container">
+          <p class="section-subtitle">
+            <img src="paw-print-dog-cat-vector-icon-foot-puppy-isolated-transparent-background-footprint-pet-black-silhouette-paw-cute-shape-paw-194894962.webp" width="32" height="7" alt="Wavy line">
+            <span>Welcome to PawsitivelyYours</span>
+          </p>
+     
+          <h2 class="h1 hero-title">
+            Paws For A Cause <strong>Raising Awareness, Healing Hounds.</strong>
+          </h2>
+     
+          <p class="hero-text">
+            a dedicated dog shelter on a mission to raise awareness about canine diseases while providing a safe haven for dogs in need, healing them one paw at a time.
+          </p>
+     
+          
+        </div>
+      </section>
+     
+      <!--
+        - #FEATURES
+      -->
+
+      <section class="section features">
+        <div class="container">
+
+          <ul class="features-list">
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="shield-checkmark-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title">Safe Shelter</h3>
+
+                <p class="item-text">
+                  committed to providing a secure haven for our four-legged friends, where their safety and well-being are our top priorities.
+                </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="water-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title">Safe Water</h3>
+
+                <p class="item-text">
+                  we understand the importance of safe water for our dogs, so we provide a constant supply of clean H2O to keep their tails wagging.
+                </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="leaf-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title">Health-conscious</h3>
+
+                <p class="item-text">
+                  Our shelter's health-conscious approach prioritizes the well-being of our dogs, ensuring their happiness and vitality
+                </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="snow-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title">Environment</h3>
+
+                <p class="item-text">
+                  Our shelter provides a secure environment where dogs can flourish, knowing they are protected and cared for
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <div class="about-banner">
+
+            <div class="banner-row">
+
+              <div class="banner-col">
+                <img src="Best Dog Breeds for Kids and Families.jpg" width="315" height="380" loading="lazy" 
+                  class="about-img w-100">
+
+                <img src="15 Nova Scotia Duck Tolling Retrievers Who Enjoy the Last Sunny Days.jpg" width="386" height="250" loading="lazy" 
+                  class="about-img about-img-2 w-100">
+              </div>
+
+              <div class="banner-col">
+                <img src="258 Reasons Why Australian Shepherds Are The Best Dogs.jpg" width="250" height="277" loading="lazy" 
+                  class="about-img about-img-3 w-100">
+
+                <img src="Photo by Reba Spike on Unsplash.jpg" width="315" height="380" loading="lazy" 
+                  class="about-img w-100">
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">
+              <img src="subtitle-img-green.png" width="32" height="7" alt="Wavy line">
+
+              <span>Why Choose Us</span>
+            </p>
+
+            <h2 class="h2 section-title">
+              Take A Stand Today To Save <strong>An Innocent Dogs' Life</strong>
+            </h2>
+            
+
+            <ul class="tab-nav">
+              <li>
+                  <button id="learnMoreBtn" class="tab-btn active">Learn More</button>
+              </li>
+          </ul>
+          
+          <script>
+              document.getElementById('learnMoreBtn').addEventListener('click', function() {
+                  window.location.href = 'https://naturaldog.com/blogs/whole-dog-health/heal-skin-dermatitis-dogs?nbt=nb%3Amicrosoft%3Ao%3A554338968%3A1144592606597447%3A71537210911681&nb_mt=e&nb_bmt=be&nb_oii=71537736326145&nb_qs=canine%20atopic%20dermatitis&nb_fii=&nb_li_ms=&nb_lp_ms=116072&nb_pi=&nb_pc=&nb_ci=&utm_adgroup=1144592606597447&d=c&msclkid=e2fb75ca85b21fd14b72104d7cfcc8ae&utm_source=bing&utm_medium=cpc&utm_campaign=S%20%7C%20USA%20%7C%20NB%20%7C%20P%20%7C%20TOP%20%7C%20TROAS%20%7C%20Nonbrand%20Search%20-%20Top%20Funnel&utm_term=dog%20atopic%20dermatitis&utm_content=Lv1%20%7C%20Dog%20Atopic%20Dermatitis';
+              });
+          </script>
+          
+          <ul class="tab-nav">
+            <li>
+                <button class="tab-btn active" id="diseaseAnalysisBtn">Disease Analysis</button>
+            </li>
+        </ul>
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+  // Get the button element
+  var diseaseAnalysisBtn = document.getElementById('diseaseAnalysisBtn');
+
+  // Add a click event listener to the button
+  diseaseAnalysisBtn.addEventListener('click', function() {
+      // Redirect to analysis.html
+      window.location.href = 'analysis.html';
+  });
+});</script>
+
+            <div class="tab-content">
+
+              <p class="section-text">
+                At our shelter, our mission is to create a safe and loving refuge for dogs, with a focus on spreading awareness about canine diseases and ensuring their well-being. We are dedicated to uniting hearts and saving dogs in need, providing them a brighter future.
+
+              <ul class="tab-list">
+
+                <li class="tab-item">
+                  <div class="item-icon">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                  </div>
+
+                  <p class="tab-text">Charity For Foods</p>
+                </li>
+
+                <li class="tab-item">
+                  <div class="item-icon">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                  </div>
+
+                  <p class="tab-text">Charity For Foster Care</p>
+                </li>
+
+                <li class="tab-item">
+                  <div class="item-icon">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                  </div>
+
+                  <p class="tab-text">Charity For Water And Hygiene</p>
+                </li>
+
+                <li class="tab-item">
+                  <div class="item-icon">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                  </div>
+
+                  <p class="tab-text">Charity For Spreading Awareness About Deadly Diseases</p>
+                </li>
+
+              </ul>
+
+              <form action="about.html">
+                <button type="submit" class="btn btn-secondary">
+                  <span>Learn More About Us</span>
+                  <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                </button>
+              </form>
+              
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!--
+        - #CTA
+      -->
+
+      <section class="section cta">
+        <div class="container">
+          <div class="cta-content">
+            <h2 class="h2 section-title">WANNA DONATE?</h2>
+      
+            <!-- Updated button with onclick event -->
+            <button class="btn btn-outline" onclick="redirectToDonate()">
+              <span>Click here and donate for a good cause</span>
+              <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+      
+          <!-- Your image element -->
+          <figure class="cta-banner">
+            <img src="Border Collie Silhouette.jpg" width="520" height="228" loading="lazy" alt="Fox" class="img-cover">
+          </figure>
+        </div>
+      </section>
+      
+      <script>
+        function redirectToDonate() {
+          window.location.href = 'donate.html';
+        }
+      </script>
+
+
+
+
+
+      <!--
+        - #SERVICE
+      -->
+
+      <section class="section service" id="service" style="background-image: url('./assets/images/service-map.png')">
+        <div class="container">
+
+          <p class="section-subtitle">
+            <img src="subtitle-img-green.png" width="32" height="7" alt="Wavy line">
+
+            <span>What We Do</span>
+          </p>
+
+          <h2 class="h2 section-title">
+            We Work Differently to <strong>keep The World Safe</strong>
+          </h2>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="leaf-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Save Nature</h3>
+
+                <p class="card-text">
+                  By promoting responsible pet ownership well-being of dogs, the shelter helps reduce the chances of abandoned or neglected animals.
+
+
+
+
+
+
+                </p>
+
+                <a href="#" class="btn-link">
+                  <span>Read More</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="earth-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Save Ecology</h3>
+
+                <p class="card-text">
+                  This shelter plays a crucial role in contributing to the preservation of ecology by promoting responsible pet care and health awareness. 
+                </p>
+
+                <a href="#" class="btn-link">
+                  <span>Read More</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="flower-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Tree Plantation</h3>
+
+                <p class="card-text">We actively promote eco-friendly initiatives and advocate for tree planting as a crucial step in environmental conservation.
+                </p>
+
+                <a href="#" class="btn-link">
+                  <span>Read More</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="boat-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Clear Ocean</h3>
+
+                <p class="card-text">
+                  While our primary mission is to rescue and care for dogs, our commitment extends to a broader vision of environmental stewardship. 
+                </p>
+
+                <a href="#" class="btn-link">
+                  <span>Read More</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!--
+        - #DONATE
+      -->
+
+      <section class="section donate" id="donate">
+        <div class="container">
+
+          <ul class="donate-list">
+
+            <li>
+              <div class="donate-card">
+
+                <figure class="card-banner">
+                  <img src="50 Cute Pics Of Bulldogs Prove How Common Stereotypes About Them Are Wrong.jpg" width="520" height="325" loading="lazy"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="progress-wrapper">
+                    <p class="progress-text">
+                      <span>Raised</span>
+
+                      <data value="256">₹1256</data>
+                    </p>
+
+                    <data class="progress-value" value="83">83%</data>
+                  </div>
+
+                  <div class="progress-box">
+                    <div class="progress"></div>
+                  </div>
+
+                  <h3 class="h3 card-title">Raise Hand To Save Animals</h3>
+
+                  <div class="card-wrapper">
+
+                    <p class="card-wrapper-text">
+                      <span>Goal</span>
+
+                      <data class="green" value="34562">₹34562</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>Raise</span>
+
+                      <data class="yellow" value="562">₹5620</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>To Go</span>
+
+                      <data class="cyan" value="864">₹8640</data>
+                    </p>
+
+                  </div>
+
+                  <button class="btn btn-secondary">
+                    <span>Donation</span>
+
+                    <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                  </button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="donate-card">
+
+                <figure class="card-banner">
+                  <img src="downloadst.jpg" width="520" height="325" loading="lazy" 
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="progress-wrapper">
+                    <p class="progress-text">
+                      <span>Raised</span>
+
+                      <data value="256">₹1856</data>
+                    </p>
+
+                    <data class="progress-value" value="83">83%</data>
+                  </div>
+
+                  <div class="progress-box">
+                    <div class="progress"></div>
+                  </div>
+
+                  <h3 class="h3 card-title">Raise Hand To Save Animals</h3>
+
+                  <div class="card-wrapper">
+
+                    <p class="card-wrapper-text">
+                      <span>Goal</span>
+
+                      <data class="green" value="34562">₹34562</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>Raise</span>
+
+                      <data class="yellow" value="562">₹5620</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>To Go</span>
+
+                      <data class="cyan" value="864">₹8640</data>
+                    </p>
+
+                  </div>
+
+                  <button class="btn btn-secondary">
+                    <span>Donation</span>
+
+                    <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                  </button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="donate-card">
+
+                <figure class="card-banner">
+                  <img src="germanshephard.jpg" width="520" height="325" loading="lazy" 
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="progress-wrapper">
+                    <p class="progress-text">
+                      <span>Raised</span>
+
+                      <data value="256">₹1256</data>
+                    </p>
+
+                    <data class="progress-value" value="83">83%</data>
+                  </div>
+
+                  <div class="progress-box">
+                    <div class="progress"></div>
+                  </div>
+
+                  <h3 class="h3 card-title">Raise Hand To Save Animals</h3>
+
+                  <div class="card-wrapper">
+
+                    <p class="card-wrapper-text">
+                      <span>Goal</span>
+
+                      <data class="green" value="34562">₹34562</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>Raise</span>
+
+                      <data class="yellow" value="562">₹5620</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>To Go</span>
+
+                      <data class="cyan" value="864">₹7640</data>
+                    </p>
+
+                  </div>
+
+                  <button class="btn btn-secondary">
+                    <span>Donation</span>
+
+                    <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                  </button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="donate-card">
+
+                <figure class="card-banner">
+                  <img src="blue-merle-and-tan Beagle (never seen this coloration_..a mix, maybe_)" width="520" height="325" loading="lazy" 
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="progress-wrapper">
+                    <p class="progress-text">
+                      <span>Raised</span>
+
+                      <data value="256">₹2156</data>
+                    </p>
+
+                    <data class="progress-value" value="83">83%</data>
+                  </div>
+
+                  <div class="progress-box">
+                    <div class="progress"></div>
+                  </div>
+
+                  <h3 class="h3 card-title">Raise Hand To Save Animals</h3>
+
+                  <div class="card-wrapper">
+
+                    <p class="card-wrapper-text">
+                      <span>Goal</span>
+
+                      <data class="green" value="34562">₹34562</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>Raise</span>
+
+                      <data class="yellow" value="562">₹9620</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>To Go</span>
+
+                      <data class="cyan" value="864">₹1864</data>
+                    </p>
+
+                  </div>
+
+                  <button class="btn btn-secondary">
+                    <span>Donation</span>
+
+                    <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                  </button>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!--
+        - #TESTIMONIALS
+      -->
+
+      <section class="testi">
+
+        <div class="testi-content">
+
+          <p class="section-subtitle">
+            <img src="subtitle-img-green.png" width="32" height="7" alt="Wavy line">
+
+            <span>Our Testimonials</span>
+          </p>
+
+          <h2 class="h2 section-title">
+            What People Say About <strong>Our Organization</strong>
+          </h2>
+
+          <div class="testi-card">
+
+            <figure class="card-avatar">
+              <img src="The Worlds Sexiest Irish Men And_.. Not So Much" width="60" height="60" loading="lazy" alt="David S. Neuman">
+            </figure>
+
+            <div>
+              <blockquote class="testi-text">
+                "I cannot speak highly enough of this exceptional dog shelter! From the moment I stepped in, the atmosphere was filled with compassion and dedication. The staff's commitment to the well-being of each dog is evident in every aspect. The facilities are clean, well-maintained, and designed with the comfort of the animals in mind. Their mission to raise awareness about canine diseases and promote responsible pet ownership is truly commendable. I adopted my furry companion here, and the seamless process, along with the post-adoption support, reflects the shelter's genuine concern for both animals and adopters.
+              </blockquote>
+
+              <h3 class="testi-name">David S. Neuman</h3>
+
+              <p class="testi-title">Business Manager</p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <figure class="testi-banner">
+          <img src="Glorious Group Photos Show The Happiest Pack Of Dogs In Town.jpg" width="960" height="846" loading="lazy" alt="Rhinoceros"
+            class="img-cover">
+        </figure>
+
+      </section>
+
+
+      <!--
+        - #PARTNER
+      -->
+
+      <section class="section partner">
+        <div class="container">
+
+          <a href="#" class="partner-logo">
+            <img src="partner-1-active.png" width="157" height="55" loading="lazy" alt="Children Fund"
+              class="gray">
+
+            <img src="./assets/images/partner-1-active.png" width="157" height="55" loading="lazy" alt="Children Fund"
+              class="color">
+          </a>
+
+          <a href="#" class="partner-logo">
+            <img src="partner-2-active.png" width="163" height="55" loading="lazy" alt="Non Profit Agency"
+              class="gray">
+
+            <img src="./assets/images/partner-2-active.png" width="163" height="55" loading="lazy"
+              alt="Non Profit Agency" class="color">
+          </a>
+
+          <a href="#" class="partner-logo">
+            <img src="partner-3-active.png" width="149" height="55" loading="lazy" alt="Rise Hand Help Us"
+              class="gray">
+
+            <img src="./assets/images/partner-3-active.png" width="149" height="55" loading="lazy"
+              alt="Rise Hand Help Us" class="color">
+          </a>
+
+          <a href="#" class="partner-logo">
+            <img src="partner-4-active.png" width="169" height="58" loading="lazy" alt="Helping" class="gray">
+
+            <img src="./assets/images/partner-4-active.png" width="169" height="58" loading="lazy" alt="Helping"
+              class="color">
+          </a>
+
+          <a href="#" class="partner-logo">
+            <img src="partner-5-active.png" width="211" height="55" loading="lazy" alt="Poor Fund Organization"
+              class="gray">
+
+            <img src="./assets/images/partner-5-active.png" width="211" height="55" loading="lazy"
+              alt="Poor Fund Organization" class="color">
+          </a>
+
+        </div>
+      </section>
+
+      <!--
+        - #EVENT
+      -->
+
+      <section class="section event" id="event">
+        <div class="container">
+
+          <p class="section-subtitle">
+            <img src="subtitle-img-green.png" width="32" height="7" alt="Wavy line">
+
+            <span>Rescue A Dog</span>
+
+            <img src="subtitle-img-green.png" width="32" height="7" alt="Wavy line">
+          </p>
+
+          <h2 class="h2 section-title">
+            Give Us Your<strong>Location</strong>
+          </h2>
+
+          
+          <ul class="event-list">
+
+            <li>
+              <div class="event-card">
+                <div class="wrapper">
+                  <div class="card-content">
+                    <h3 class="card-title">Our Services Will Be Provided In A Jiffy</h3>
+                  </div>
+          
+                  <!-- Modify the button to say "Enter Location" -->
+                  <a href="index.html" class="btn btn-white">
+                    <span>Rescue</span>
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+          
+            <!-- Repeat the structure for other events -->
+            
+          </ul>
+          
+
+          <form action="team.html">
+            <button type="submit" class="btn btn-secondary">
+              <span>Meet The Team</span>
+              <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+          
+          
+
+        </div>
+      </section>
+
+      <!--
+        - #INSTA POST
+      -->
+
+      <section class="insta-post">
+
+        <ul class="insta-post-list">
+
+          <li class="insta-post-item">
+            <a href="#" class="insta-post-link">
+              <img src="Preferences-BNHA.jpg" width="320" height="300" loading="lazy" 
+                class="img-cover">
+
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <a href="#" class="insta-post-link">
+              <img src="different cuts for teacup yorkshire terrier.jpg" width="320" height="300" loading="lazy"
+                class="img-cover">
+
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <a href="#" class="insta-post-link">
+              <img src="Top 12 Things Great Danes Don’t Like.jpg" width="320" height="300" loading="lazy" 
+                class="img-cover">
+
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <a href="#" class="insta-post-link">
+              <img src="14 Facts About Boxer Dogs You Probably Didn't Know.jpg" width="320" height="300" loading="lazy" 
+                class="img-cover">
+
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <a href="#" class="insta-post-link">
+              <img src="download4.jpg" width="320" height="300" loading="lazy" alt="Horses"
+                class="img-cover">
+
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </section>
+
+    </article>
+  </main>
+
+  <!--
+    - #FOOTER
+  -->
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script1.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

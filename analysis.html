@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="analysis.css"> <!-- Linking your external CSS file -->
+    
+</head>
+<body>
+
+<form id="myForm" action="submit" method="post" onsubmit="onSubmitForm(); return false;">
+    <!-- Your form content here -->
+    <label for="season_born">In which season was your pet born in?</label>
+    <select id="season_born" name="season_born">
+        <option value="1">Winter</option>
+        <option value="2">Spring</option>
+        <option value="3">Summer</option>
+        <option value="4">Fall</option>
+    </select><br>
+
+    <label>Does your house have a heating system?</label><br>
+    <input type="radio" id="wood_heating" name="heating_system_house" value="1">
+    <label for="wood_heating">Yes</label><br>
+    <input type="radio" id="other_heating" name="heating_system_house" value="2">
+    <label for="other_heating">No</label><br>
+
+    <label>What type of house do you currently reside in?</label><br>
+    <input type="radio" id="apartment_now" name="house_now" value="1">
+    <label for="apartment_now">Apartment</label><br>
+    <input type="radio" id="row_now" name="house_now" value="2">
+    <label for="row_now">Row House</label><br>
+    <input type="radio" id="detached_wood_now" name="house_now" value="3">
+    <label for="detached_wood_now">Detached Wooden House</label><br>
+    <input type="radio" id="detached_not_wood_now" name="house_now" value="4">
+    <label for="detached_not_wood_now">Detached non Wooden House</label><br>
+
+    <label>What type of house did you previously reside in?</label><br>
+    <input type="radio" id="apartment_before" name="house_before" value="1">
+    <label for="apartment_before">Apartment</label><br>
+    <input type="radio" id="row_before" name="house_before" value="2">
+    <label for="row_before">Row House</label><br>
+    <input type="radio" id="detached_wood_before" name="house_before" value="3">
+    <label for="detached_wood_before">Detached Wooden House</label><br>
+    <input type="radio" id="detached_not_wood_before" name="house_before" value="4">
+    <label for="detached_not_wood_before">Detached non Wooden House</label><br>
+
+    <label for="clean_house">Is the environment around you clean and hygienic?</label>
+    <select id="clean_house" name="clean_house">
+        <option value="1">Extremely clean</option>
+        <option value="2">Moderately clean</option>
+    </select><br>
+
+    <label>Has your pet been dewormed?</label><br>
+    <input type="radio" id="puppy_dewormed_no" name="puppy_dewormed" value="0">
+    <label for="puppy_dewormed_no">No</label><br>
+    <input type="radio" id="puppy_dewormed_yes" name="puppy_dewormed" value="1">
+    <label for="puppy_dewormed_yes">Yes</label><br>
+
+    <label>Has your pet been vaccinated?</label><br>
+    <input type="radio" id="puppy_vaccinated_no" name="puppy_vaccinated" value="0">
+    <label for="puppy_vaccinated_no">No</label><br>
+    <input type="radio" id="puppy_vaccinated_yes" name="puppy_vaccinated" value="1">
+    <label for="puppy_vaccinated_yes">Yes</label><br>
+
+    <label>Did your pet have prebirth deworming?</label><br>
+    <input type="radio" id="dam_dewormed_prebirth_no" name="dam_dewormed_prebirth" value="0">
+    <label for="dam_dewormed_prebirth_no">No</label><br>
+    <input type="radio" id="dam_dewormed_prebirth_yes" name="dam_dewormed_prebirth" value="1">
+    <label for="dam_dewormed_prebirth_yes">Yes</label><br>
+
+    <label>Did your pet have prebirth vaccination?</label><br>
+    <input type="radio" id="dam_vaccinated_prebirth_no" name="dam_vaccinated_prebirth" value="0">
+    <label for="dam_vaccinated_prebirth_no">No</label><br>
+    <input type="radio" id="dam_vaccinated_prebirth_yes" name="dam_vaccinated_prebirth" value="1">
+    <label for="dam_vaccinated_prebirth_yes">Yes</label><br>
+
+    <label for="gender">Gender of your pet:</label>
+    <select id="gender" name="gender">
+        <option value="1">Male</option>
+        <option value="2">Female</option>
+    </select><br>
+
+    <label>Does the coat of your pet's fur consist over 50% white?</label><br>
+    <input type="radio" id="over_50_white_yes" name="over_50_white" value="1">
+    <label for="over_50_white_yes">Yes</label><br>
+    <input type="radio" id="over_50_white_no" name="over_50_white" value="2">
+    <label for="over_50_white_no">No</label><br>
+
+    <label>Do you own other animals?</label><br>
+    <input type="radio" id="other_animals_no" name="other_animals" value="1">
+    <label for="other_animals_no">No</label><br>
+    <input type="radio" id="other_animals_yes" name="other_animals" value="2">
+    <label for="other_animals_yes">Yes</label><br>
+
+    <label>Do you own other dogs?</label><br>
+    <input type="radio" id="other_dogs_no" name="other_dogs" value="1">
+    <label for="other_dogs_no">No</label><br>
+    <input type="radio" id="other_dogs_yes" name="other_dogs" value="2">
+    <label for="other_dogs_yes">Yes</label><br>
+
+    <label>Were the parents of your pet a part of your family?</label><br>
+    <input type="radio" id="born_owner_family_no" name="born_owner_family" value="1">
+    <label for="born_owner_family_no">No</label><br>
+    <input type="radio" id="born_owner_family_yes" name="born_owner_family" value="2">
+    <label for="born_owner_family_yes">Yes</label><br>
+
+    <label>If you have smoking habits, where do you smoke?</label><br>
+    <input type="radio" id="smoking_previously_inside" name="smoking_previously" value="1">
+    <label for="smoking_previously_inside">Mainly inside</label><br>
+    <input type="radio" id="smoking_previously_rarely_inside" name="smoking_previously" value="2">
+    <label for="smoking_previously_rarely_inside">Rarely inside</label><br>
+    <input type="radio" id="smoking_previously_outside" name="smoking_previously" value="3">
+    <label for="smoking_previously_outside">Only outside</label><br>
+
+    <label>How does your pet reside in it's yard?</label><br>
+    <input type="radio" id="no_yard" name="dog_has_yard" value="1">
+    <label for="no_yard">I don't have a yard</label><br>
+    <input type="radio" id="loose_in_yard" name="dog_has_yard" value="2">
+    <label for="loose_in_yard">My pet is left loose in a yard</label><br>
+    <input type="radio" id="loose_in_kennel" name="dog_has_yard" value="3">
+    <label for="loose_in_kennel">My pet is left loose in a kennel</label><br>
+    <input type="radio" id="chained_in_yard" name="dog_has_yard" value="4">
+    <label for="chained_in_yard">My pet is chained in a yard</label><br>
+
+    <label for="bcs_under_2_mo">Body Condition Score(BCS) of your pet under 2 months of age?</label>
+    <select id="bcs_under_2_mo" name="bcs_under_2_mo">
+        <option value="1">Normal</option>
+        <option value="2">Obese</option>
+        <option value="3">Fat</option>
+        <option value="4">Slim</option>
+        <option value="5">Very slim</option>
+    </select><br>
+
+    <label for="outside_under_2_mo">How often is your pet outside under 2 months of age?</label>
+    <select id="outside_under_2_mo" name="outside_under_2_mo">
+        <option value="1">Several times a day</option>
+        <option value="2">Once a day</option>
+        <option value="3">Several times a week</option>
+        <option value="4">Several times a month</option>
+        <option value="5">Not at all</option>
+    </select><br>
+
+    <label for="outside_a_day_under_5_mo">How often is your pet outside under 5 months of age?</label>
+    <select id="outside_a_day_under_5_mo" name="outside_a_day_under_5_mo">
+        <option value="1">Under 30 min</option>
+        <option value="2">30-60 min</option>
+        <option value="3">1-2 h</option>
+        <option value="4">Over 2h</option>
+    </select><br>
+
+    <label>Does your experience any skin abnormalities or conditions?</label><br>
+    <input type="radio" id="skin_symptoms_no" name="skin_symptoms" value="1">
+    <label for="skin_symptoms_no">No</label><br>
+    <input type="radio" id="skin_symptoms_yes" name="skin_symptoms" value="2">
+    <label for="skin_symptoms_yes">Yes</label><br>
+     <input type="submit" value="Submit">
+</form>
+<script>
+    function onSubmitForm() {
+        // Check if a heating system is selected
+        var heatingSystemSelected = document.querySelector('input[name="heating_system_house"]:checked');
+
+        if (heatingSystemSelected) {
+            // Get the value of the selected heating system
+            var heatingSystemValue = heatingSystemSelected.value;
+
+            // Redirect to output.html with the heating system value as a parameter
+            window.location.href = 'output.html?heating_system=' + encodeURIComponent(heatingSystemValue);
+        } else {
+            // Perform other form submission actions if needed
+            document.getElementById('myForm').submit();
+        }
+    }
+</script>
+
+</body>
+</html>
